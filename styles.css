@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }  
+
 .center{
     text-align: center;
     display: block;
@@ -17,12 +23,13 @@ li{
     padding: 7.5px;
 }
 
-li a{
+.links{
     text-decoration: none;
     color: #000;
+    font-size: small;
 }
 
-li a:hover{
+.links:hover{
     text-decoration: underline;
 }
 
@@ -48,4 +55,31 @@ li a:hover{
     color: #585656ee;
     border-radius: 4px;
     font-size: 14px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F4F4F4;
+    color: #585656ee;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+
+#c{
+    padding-left: 27px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.fl{
+    padding-left: 27px;
+    color: #585656ee;
+}
+
+hr{
+    color: #bbb8b8;
+    margin: 0;
 }
