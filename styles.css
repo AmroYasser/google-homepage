@@ -1,0 +1,51 @@
+.center{
+    text-align: center;
+    display: block;
+    clear: both;
+    padding-top: 117px;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    padding: 0;
+    margin: 10px 12px 29px 11px;
+}
+
+li{
+    display: inline-block;
+    padding: 7.5px;
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+#bar{
+    display: block;
+    margin: 25px auto;
+    width: 37%;
+    padding: 14px;
+    border: 0.5px solid #d8d1d1ee;
+    border-radius: 25px;
+    outline: none;
+}
+
+#bar:hover{
+    box-shadow: 1.3px 1.3px 6px #cac2c2ee;
+}
+
+.buttons{
+    padding: 10px 18px;
+    margin: 4px;
+    border: none;
+    background-color: #F4F4F4;
+    color: #585656ee;
+    border-radius: 4px;
+    font-size: 14px;
+}
